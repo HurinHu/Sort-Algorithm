@@ -1,24 +1,43 @@
-//Best Ω(n), average Θ(n^2), worst O(n^2)
+//Best Ω(nlogn), average Θ(nlogn), worst O(nlogn)
 
 #include<stdio.h>
-#include<stdbool.h>
+#include <stdbool.h>
 int max=10000;
-void insertionsort(int a[],int start,int end){
-    int i,j;
-    int tmp;
-    for(i=start+1;i<=end;i++){
-        tmp=a[i];
-        j=i-1;
-        //if a[i] less than preview, swap
-        while((j>=start)&&(a[j]>tmp)){
-            a[j+1]=a[j];
-            j--;
+void merge(int a[],int b[],int start,int mid,int end)
+{
+    int i,j,k;
+    for(i=mid+1,j=start;start<=mid&&i<=end;j++){
+        if(a[start]<a[i]){
+            b[j]=a[start++];
+        }else{
+            b[j]=a[i++];
         }
-        a[j+1]=tmp;
+    }
+    if(start<=mid){
+        for(k=0;k<=mid-start;k++){
+            b[j+k]=a[start+k];
+        }
+    }
+    if(i<=end){
+        for(k=0;k<=end-i;k++){
+            b[j+k]=a[i+k];
+        }
+    }
+}
+void mergesort(int a[], int b[], int start, int end){
+    int tmp[100];
+    if(start==end){
+        b[start] = a[start];
+    }
+    else{
+        int mid = (start+end)/2;
+        mergesort(a,tmp,start,mid);
+        mergesort(a,tmp,mid+1,end);
+        merge(tmp,b,start,mid,end);
     }
 }
 int main(){
-    int s[max];
+    int s[max],y[max];
     int input;
     int i=0;
     bool positive=true;
@@ -50,13 +69,13 @@ int main(){
         s[i]=s[i]*-1;
     }
     //quick sort
-    insertionsort(s,0,i);
+    mergesort(s,y,0,i);
     //output result
     if(i!=-1){
         printf("After sort:\n");
     }
     for(int j=0;j<=i;j++){
-        printf("%d ",s[j]);
+        printf("%d ",y[j]);
     }
     printf("\n");
     return 0;

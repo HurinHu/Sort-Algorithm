@@ -1,4 +1,4 @@
-//Average O(nlogn), worst O(n^2)
+//Best Ω(nlogn), average Θ(nlogn), worst O(n^2)
 
 #include<stdio.h>
 #include <stdbool.h>
