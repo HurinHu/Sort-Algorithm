@@ -51,4 +51,5 @@ end for
 * [C](https://github.com/HurinHall/Sort-Algorithm/blob/master/InsertionSort/InsertionSort.c)
 * [Java](https://github.com/HurinHall/Sort-Algorithm/blob/master/InsertionSort/InsertionSort.java)
 * [Python](https://github.com/HurinHall/Sort-Algorithm/blob/master/InsertionSort/InsertionSort.py)
+* [Ruby](https://github.com/HurinHall/Sort-Algorithm/blob/master/InsertionSort/InsertionSort.rb)
 
