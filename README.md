@@ -55,3 +55,38 @@ end for
 * [PHP](https://github.com/HurinHall/Sort-Algorithm/blob/master/InsertionSort/InsertionSort.php)
 * [Bash](https://github.com/HurinHall/Sort-Algorithm/blob/master/InsertionSort/InsertionSort.sh)
 * [Perl](https://github.com/HurinHall/Sort-Algorithm/blob/master/InsertionSort/InsertionSort.pl)
+
+MergeSort
+---------
+
+Time Complexity: Best Ω(nlogn), average Θ(nlogn), worst O(nlogn)
+'''
+algorithm mergesort(A, lo, hi) is
+    if lo < hi then
+	center := (lo + hi)/2
+	mergesort(A, lo, center)
+	mergesort(A, center+1, hi)
+	merge(A, lo, center, hi)
+
+algorithm merge(A, lo, center, hi) is
+    Copy(A,B)
+    i=lo
+    j=center+1
+    k=lo
+    while i<=center and j<=hi
+	if B[i] <= B[j] then
+	    A[k]=B[i]
+	    i++
+        else then
+	    A[k]=B[j]
+	    j++
+    
+    while i<=center 
+	A[k]=B[i]
+	k++
+	i++
+
+'''
+* [C](https://github.com/HurinHall/Sort-Algorithm/blob/master/MergeSort/MergeSort.c)
+* [Java](https://github.com/HurinHall/Sort-Algorithm/blob/master/MergeSort/MergeSort.java)
+
