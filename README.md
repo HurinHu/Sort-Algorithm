@@ -52,4 +52,4 @@ end for
 * [Java](https://github.com/HurinHall/Sort-Algorithm/blob/master/InsertionSort/InsertionSort.java)
 * [Python](https://github.com/HurinHall/Sort-Algorithm/blob/master/InsertionSort/InsertionSort.py)
 * [Ruby](https://github.com/HurinHall/Sort-Algorithm/blob/master/InsertionSort/InsertionSort.rb)
-
+* [PHP](https://github.com/HurinHall/Sort-Algorithm/blob/master/InsertionSort/InsertionSort.php)
