@@ -53,3 +53,5 @@ end for
 * [Python](https://github.com/HurinHall/Sort-Algorithm/blob/master/InsertionSort/InsertionSort.py)
 * [Ruby](https://github.com/HurinHall/Sort-Algorithm/blob/master/InsertionSort/InsertionSort.rb)
 * [PHP](https://github.com/HurinHall/Sort-Algorithm/blob/master/InsertionSort/InsertionSort.php)
+* [Bash](https://github.com/HurinHall/Sort-Algorithm/blob/master/InsertionSort/InsertionSort.sh)
+
