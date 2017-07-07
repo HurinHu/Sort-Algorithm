@@ -33,20 +33,3 @@ algorithm partition(A, lo, hi) is
 * [PHP](https://github.com/HurinHall/Sort-Algorithm/blob/master/QuickSort/QuickSort.php)
 * [Bash](https://github.com/HurinHall/Sort-Algorithm/blob/master/QuickSort/QuickSort.sh)
 * [Perl](https://github.com/HurinHall/Sort-Algorithm/blob/master/QuickSort/QuickSort.pl)
-
-InsertionSort
--------------
-
-Time Complexity: Best Ω(n), average Θ(n^2), worst O(n^2)
-
-```
-for i = 1 to length(A)
-    j ← i
-    while j > 0 and A[j-1] > A[j]
-        swap A[j] and A[j-1]
-        j ← j - 1
-    end while
-end for
-```
-* [C](https://github.com/HurinHall/Sort-Algorithm/blob/master/InsertionSort/InsertionSort.c)
-* [Java](https://github.com/HurinHall/Sort-Algorithm/blob/master/InsertionSort/InsertionSort.java)
