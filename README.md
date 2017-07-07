@@ -32,4 +32,4 @@ algorithm partition(A, lo, hi) is
 * [Ruby](https://github.com/HurinHall/Sort-Algorithm/blob/master/QuickSort/QuickSort.rb)
 * [PHP](https://github.com/HurinHall/Sort-Algorithm/blob/master/QuickSort/QuickSort.php)
 * [Bash](https://github.com/HurinHall/Sort-Algorithm/blob/master/QuickSort/QuickSort.sh)
-
+* [Perl](https://github.com/HurinHall/Sort-Algorithm/blob/master/QuickSort/QuickSort.pl)
