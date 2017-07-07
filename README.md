@@ -60,7 +60,7 @@ MergeSort
 ---------
 
 Time Complexity: Best Ω(nlogn), average Θ(nlogn), worst O(nlogn)
-'''
+```
 algorithm mergesort(A, lo, hi) is
     if lo < hi then
 	center := (lo + hi)/2
@@ -86,7 +86,7 @@ algorithm merge(A, lo, center, hi) is
 	k++
 	i++
 
-'''
+```
 * [C](https://github.com/HurinHall/Sort-Algorithm/blob/master/MergeSort/MergeSort.c)
 * [Java](https://github.com/HurinHall/Sort-Algorithm/blob/master/MergeSort/MergeSort.java)
 
