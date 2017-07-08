@@ -90,3 +90,4 @@ algorithm merge(A, lo, center, hi) is
 * [C](https://github.com/HurinHall/Sort-Algorithm/blob/master/MergeSort/MergeSort.c)
 * [Java](https://github.com/HurinHall/Sort-Algorithm/blob/master/MergeSort/MergeSort.java)
 * [Python](https://github.com/HurinHall/Sort-Algorithm/blob/master/MergeSort/MergeSort.py)
+* [Ruby](https://github.com/HurinHall/Sort-Algorithm/blob/master/MergeSort/MergeSort.rb)
