@@ -6,7 +6,7 @@ This is a sorting algorithms responsitory.
 QuickSort
 ---------
 
-Time Complexity: Best Ω(nlogn), average Θ(nlogn), worst O(n^2)
+Time Complexity: Best O(nlogn), average O(nlogn), worst O(n^2)
 
 ```
 algorithm quicksort(A, lo, hi) is
@@ -37,7 +37,7 @@ algorithm partition(A, lo, hi) is
 InsertionSort
 -------------
 
-Time Complexity: Best Ω(n), average Θ(n^2), worst O(n^2)
+Time Complexity: Best O(n), average O(n^2), worst O(n^2)
 
 ```
 for i = 1 to length(A)
@@ -59,7 +59,7 @@ end for
 MergeSort
 ---------
 
-Time Complexity: Best Ω(nlogn), average Θ(nlogn), worst O(nlogn)
+Time Complexity: Best O(nlogn), average O(nlogn), worst O(nlogn)
 ```
 algorithm mergesort(A, lo, hi) is
     if lo < hi then
@@ -94,3 +94,17 @@ algorithm merge(A, lo, center, hi) is
 * [PHP](https://github.com/HurinHall/Sort-Algorithm/blob/master/MergeSort/MergeSort.php)
 * [Bash](https://github.com/HurinHall/Sort-Algorithm/blob/master/MergeSort/MergeSort.sh)
 * [Perl](https://github.com/HurinHall/Sort-Algorithm/blob/master/MergeSort/MergeSort.pl)
+
+BubbleSort
+---------
+
+Time Complexity: Best O(n), average O(n^2), worst O(n^2)
+```
+algorithm bubblesort(A) is
+	n = length(A)
+	for i = 0 to n-1 do
+		for j = 1 to n-i-1 do
+			if A[j-1] > A[j] then
+				swap A[j-1] with A[j]
+```
+* [Java](https://github.com/HurinHall/Sort-Algorithm/blob/master/BubbleSort/BubbleSort.java)
